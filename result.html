@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>information your booking</title>
+</head>
+<body>
+<h1>information about your booking</h1>
+<script>
+
+var f= location.search;
+
+const params = new URLSearchParams(location.search);
+document.write("<h2>Reservation successful</h2>");
+document.write("</br>");
+document.write("Full Name:"+params.get("name"));
+document.write("</br>");
+
+
+document.write("Phone Number: "+params.get("phone"));
+document.write("</br>");
+
+document.write("The number of people: "+params.get("people"));
+document.write("</br>");
+
+document.write("day:"+params.get("days"));
+document.write("</br>");
+
+document.write("time: "+params.get("hours"));
+document.write("</br>");
+
+let counter = 0;
+let a = ++counter;
+document.write("booking number: "+a);
+document.write("</br>");
+
+</script>
+</body>
