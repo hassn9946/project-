@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>reservation page</title>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <form action="result.html">
+        <div class = "page">
+            <h2 class="up" >BOOK YOUR TABLE NOW</h2>
+            <div class="top">
+                
+            </div>
+                <div class = "box">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class = "form">
+                            <select name = "days" name="days">
+                                <option value = "select what day">what day</option>
+                                <option value = "sunday">sunday</option>
+                                <option value = "monday">monday</option>
+                                <option value = "tuesday">tuesday</option>
+                                <option value = "wednesday">wednesday</option>
+                                <option value = "thursday">thursday</option>
+                                <option value = "friday">friday</option>
+                                <option value = "saturday">saturday</option>
+                            </select>
+
+                            <select name = "hours" name="hours">
+                                <option value = "hour-select">Select Hour</option>
+                                <option value = "10am">10: 00 am</option>
+                                <option value = "12am">12: 00 am</option>
+                                <option value = "2pm">02: 00 pm</option>
+                                <option value = "4pm">04: 00 pm</option>
+                                <option value = "6pm">06: 00 pm</option>
+                                <option value = "8pm">08: 00 pm</option>
+                                <option value = "10pm">10: 00 pm</option>
+                            </select>
+                        </div>
+
+                        <div class = "form">
+                            <input type = "text" placeholder="Full Name" name="name" required>
+                            <input type = "text" placeholder="Phone Number" name="phone" required>
+                        </div>
+
+                        <div class = "form">
+                            <input type = "number" placeholder="How Many People?" min = "1" name="people" required>
+                            <input type = "submit" value = "BOOK TABLE">
+                        </div>
+                    </form>
+                </div>
+        </div>
+        
+    </body>
+</html>
